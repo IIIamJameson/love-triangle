@@ -12,6 +12,6 @@ t=preferences[j - 1];
 if (preferences[t - 1]==i + 1) {
 count+=1;
 }}
-
-return count / 3;
+count=count/3>>0;
+return count;
 };
